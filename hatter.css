@@ -1,0 +1,103 @@
+body {
+    background-color: red;
+    background-image: url(back.jpg);
+  }
+  h1 {
+    color: aqua;
+    text-align: center;
+  }
+  h2{
+    color: aqua;
+   text-align: center;  
+  }
+  h3{
+   color: aqua;
+   text-align: center;
+  }
+  h4{
+   color: aqua;
+   text-align: center;
+  }
+  h5{
+   color: aqua;
+   text-align: center;
+  }
+  h6{
+   color: aqua;
+   text-align: center;
+  }
+  p {
+    font-family: verdana;
+    font-size: 20px;
+    color: aqua;
+    text-align: right;
+  }
+  table, th, td, tr {
+    border: 3px solid black;
+  }
+a{
+  color: white;
+}
+#menusav {
+width: 100%;
+background-image: url(back.jpg);
+height: 80px;
+}
+
+ul{
+list-style: none;
+padding: 0;
+margin: 0;
+position: absolute;
+}
+
+ul li{
+float: center;
+margin-top: 20px;
+}
+
+ul li a{
+width: 360px;
+color: white;
+display: block;
+text-decoration: none;
+text-align: center;
+padding: 10px;
+border-radius: 10px;
+}
+
+a:hover {
+background-color: aqua;
+}
+
+ul li ul {
+background-color: aqua;
+}
+ul li ul li {
+float: none;
+}
+ul li ul {
+display: none;
+}
+ul li:hover ul {
+display: block;
+}
+th{
+  color: aqua;
+}
+
+ol{
+  text-align: left;
+}
+
+
+
+legend{
+  color: aqua;
+  text-align: left;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul { 
+  list-style-type: square; 
+}
